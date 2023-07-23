@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    background-image: url('./Images/stadium.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box input {
+    padding: 1px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+
+.login-box textarea {
+    width: 50%;
+    padding: 1px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+
+.login-box label {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #f7fafa;
+}
+
+.legend {
+    color: #f7fafa;
+}
+
+.button {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    padding: 10px 80px;
+    letter-spacing: 40px;
+    cursor: pointer;
+}

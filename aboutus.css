@@ -1,0 +1,94 @@
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('./Images/aboutus.jpg');
+    background-size: cover;
+}
+
+.column {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    text-align: center;
+}
+
+.about-section {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #000205;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.3;
+    transition: 0.1s;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+#myDIV {
+    display: none;
+    background-color: #c4b6b6;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
